@@ -1,4 +1,3 @@
-
 import { NextPage } from "next";
 
 /* eslint-disable @next/next/no-img-element */
