@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import axios from 'axios';
 import { executeRequest } from "../services/api";
@@ -34,7 +33,7 @@ export const Login: NextPage<AccessTokenProps> = ({
             if (result && result.data) {
                 localStorage.setItem('accessToken', result.data.token);
                 localStorage.setItem('userName', result.data.name);
-                localStorage.setItem('userMail', result.data.mail);
+                localStorage.setItem('userMail', result.data.email);
                 setToken(result.data.token);
             } else {
                 setError('Não foi possivel processar login, tente novamente');

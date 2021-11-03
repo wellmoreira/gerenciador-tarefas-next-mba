@@ -11,10 +11,8 @@ import { TaskRequest } from '../../types/TaskRequest';
 const handler = async (req: NextApiRequest, res: NextApiResponse<DefaultResponse | Task[]>) => {
     try {
         let userId = req.body?.userId;
-        console.log(`primeira vez ${userId}`);
         if (!userId) {
             userId = req.query?.userId as string;
-            console.log(`segunda vez ${userId}`)
         }
 
         switch (req.method) {
@@ -25,7 +23,6 @@ const handler = async (req: NextApiRequest, res: NextApiResponse<DefaultResponse
             case 'DELETE':
                 return await deleteTask(req, res, userId);
             case 'GET':
-                console.log('metodo get inicio')
                 return await getTasks(req, res, userId);
             default:
                 break;

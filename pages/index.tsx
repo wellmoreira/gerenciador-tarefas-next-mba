@@ -1,4 +1,3 @@
-
 import type { NextPage } from 'next'
 import { useEffect, useState } from 'react';
 import { Login } from '../containers/Login';

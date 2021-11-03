@@ -1,4 +1,3 @@
-
 @import "~bootstrap/scss/bootstrap";
 
 @font-face {
@@ -36,6 +35,8 @@ body {
 @import './filter.scss';
 @import './footer.scss';
 @import './list.scss';
+@import './item.scss';
+@import './modal.scss';
 
 button{
     display: block;

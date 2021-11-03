@@ -1,3 +1,3 @@
 export type AccessTokenProps = {
-    setToken(e: string): void
+ setToken(e: string): void
 }
