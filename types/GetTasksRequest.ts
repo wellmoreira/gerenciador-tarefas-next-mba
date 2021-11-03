@@ -1,5 +1,5 @@
 export type GetTasksRequest = {
-    finishPrevisionDateStart? : string,
-    finishPrevisionDateEnd? : string,
-    status? : string
+ finishPrevisionDateStart? : string,
+ finishPrevisionDateEnd? : string,
+ status? : string
 }
