@@ -1,5 +1,5 @@
 # gerenciador-tarefas-next
- curso mba projeto em next
+ mba projeto next
  
  Getting Started
 First, run the development server:
